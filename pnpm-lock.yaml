@@ -23,9 +23,6 @@ importers:
       '@planazo/config':
         specifier: workspace:^
         version: link:../../packages/config
-      '@planazo/shared':
-        specifier: workspace:^
-        version: link:../../packages/shared
       '@planazo/types':
         specifier: workspace:^
         version: link:../../packages/types
@@ -72,15 +69,6 @@ importers:
       '@types/node':
         specifier: ^26.1.1
         version: 26.1.2
-      typescript:
-        specifier: ^5.7.2
-        version: 5.9.3
-
-  packages/shared:
-    devDependencies:
-      '@planazo/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       typescript:
         specifier: ^5.7.2
         version: 5.9.3
